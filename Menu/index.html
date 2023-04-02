@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link rel="icon" href="../imgs/favicon.ico">
+  <title>Menu</title>
+  <script src="../js/jquery-3.6.2.min.js"></script>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="../imgs/nav-logo.png" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars text-white"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item active px-2">
+            <a class="nav-link text-white" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link text-white" href="#">Menu</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link text-white dropdown-toggle" href=".#" role="button" data-toggle="dropdown" aria-expanded="false">
+              Reservation
+            </a>
+            <div class="dropdown-menu bg-dark">
+              <a class="dropdown-item text-white" href="../Reservation&Account/reservation.html">Reservarion</a>
+              <a class="dropdown-item text-white" href="../Reservation&Account/reservation-openTable.html">Reservation - Opentable</a>
+            </div>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link text-white" href="../index.html">Pages</a>
+          </li>
+          <li class="nav-item  px-2">
+            <a class="nav-link text-white" href="../recipe/recioe0.html">Recipe</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link text-white" href="../index.html">Blog</a>
+          </li>
+          <li class="nav-item  px-2">
+            <a class="nav-link text-white" href="../index.html">Shop</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link text-white" href="../Contact/index.html">Contact</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link text-white" href="../Reservation&Account/account.html">Account</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="pack_img">
+    <div class="container" style="padding: 8%;">
+      <div class="row">
+        <div class="text-center text-white">
+          <h2 class="text-uppercase lh-sm mt-4 recip_h2">Menu</h2>
+          <p class="opacity-75 fs-5 recip_p h3">Tomato is a delicious restaurant website template</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+
+    <div class="text-center ">
+      <div class="fw-bold fs-2 mt-5">Delicious Food </div>
+      <div style="color: #777; font-size: 23px;">These fine folks trusted the award winning restaurant. </div>
+
+      <div class="hrr"></div>
+
+    </div>
+
+
+
+    <div class="container">
+      <div class=" row text-center ">
+        <div class="col m-5 spans ">
+          <span id="all" class="item active all " data-filter="all">ALL</span>
+          <span id="star" class="item " data-filter=".star">STARTERS</span>
+          <span id="breakfast" class="item " data-filter=".breakfa">BREAKFAST</span>
+          <span id="lunch" class="item " data-filter=".lunch">LUNCH</span>
+          <span id="dinner" class="item" data-filter=".dinner">DINNER</span>
+          <span id="deserts" class="item" data-filter=".desert">DESERTS</span>
+        </div>
+      </div>
+      <div id="#container" class="con">
+
+        <div class="row myMenu text-center justify-content-around ">
+          <div class="mix mt-3 breakfa col-md-4 card img  " style="width: 20rem;">
+
+            <img src="images/111.jpg" class="card-img-top p-3 rounded zoom" alt="" height="180px">
+            <div class="card-body">
+              <h4>ENGLISH ASPARAGUS </h4>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi, velit?</p>
+              <span class=" fw-bold fs-2 " style="color: #e7ad48;">100$ </span>
+
+            </div>
+
+          </div>
+
+          <div class="mix mt-3 star dinner col-md-4  card star  lunch" style="width: 20rem;">
+
+            <img src="images/22222.jpg" class="card-img-top p-3 rounded zoom" alt="" height="180px">
+            <div class="card-body lunch">
+              <h4>ENGLISH ASPARAGUS</h4>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi, velit?</p>
+              <span class=" fw-bold fs-2 " style="color: #e7ad48;">100$ </span>
+
+            </div>
+
+          </div>
+
+          <div class="mix mt-3 dinner col-md-4  card  star dinner lunch" style="width: 20rem;">
+
+            <img src="images/3333.jpg" class="card-img-top p-3 rounded zoom" alt="" height="180px">
+            <div class="card-body">
+              <h4>ENGLISH ASPARAGUS</h4>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi, velit?</p>
+              <span class=" fw-bold fs-2 " style="color: #e7ad48;">100$ </span>
+
+            </div>
+
+          </div>
+
+          <div class="mix mt-3 desert col-md-4 card  star dinner lunch desert" style="width: 20rem;">
+
+            <img src="images/44444.jpg" class="card-img-top p-3 rounded zoom" alt="" height="180px">
+            <div class="card-body">
+              <h4>ENGLISH ASPARAGUS </h4>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi, velit?</p>
+              <span class=" fw-bold fs-2 " style="color: #e7ad48;">100$ </span>
+
+            </div>
+
+          </div>
+
+          <div class="mix mt-3 breakfa col-md-4 card   brakfa dinner desert" style="width: 20rem;">
+
+            <img src="images/555555.jpg" class="card-img-top p-3 rounded zoom" alt="" height="180px">
+            <div class="card-body">
+              <h4>ENGLISH ASPARAGUS </h4>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi, velit?</p>
+              <span class=" fw-bold fs-2 " style="color: #e7ad48;">100$ </span>
+
+            </div>
+
+          </div>
+
+          <div class="mix mt-3 breakfa col-md-4 card  brekfa desert" style="width: 20rem;">
+
+            <img src="images/66666.jpg" class="card-img-top p-3 rounded zoom" alt="" height="180px">
+            <div class="card-body">
+              <h4>ENGLISH ASPARAGUS </h4>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi, velit?</p>
+              <span class=" fw-bold fs-2 " style="color: #e7ad48;">100$ </span>
+
+            </div>
+
+          </div>
+
+
+
+
+        </div>
+        <section class="section5 mt-5">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col">
+                <h1 class="text-uppercase lh-base fs-2">Subscribe</h1>
+                <p class="h3">Get updates about new dishes and upcoming events</p>
+                <form class="row pt-2 ms-5">
+                  <div class="col-auto">
+                    <input type="email" class="form-control rounded-0" placeholder="Your Email Address">
+                  </div>
+                  <div class="col-auto">
+                    <button type="submit" class="btn btn-default rounded-0 ">
+                      <i class="fa fa-angle-right"></i>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </div>
+
+
+    </div>
+  </div>
+
+  <div class="footer bg-dark pt-4 mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-4">
+          <h2 class="text-orange text-uppercase mb-4">About Us</h2>
+          <p class="text-white">
+            Duis leo justo, condimentum at purus eu,Aenean sed dolor sem. Etiam massa libero, auctor vitae egestas et,
+            accumsan quis nunc.Duis leo justo, condimentum at purus eu, posuere pretium tellus.
+          </p>
+        </div>
+        <div class="d-none d-md-block col-6 col-lg-4">
+          <h2 class="text-orange text-uppercase mb-4 ">Recent Post</h2>
+          <div class="row">
+            <div class="col-3">
+              <img src="../imgs/thumb8.png" alt="">
+            </div>
+            <div class="col-9">
+              <p class="h5 text-white">Hand picked ingredients for our best customers</p>
+              <span class="text-muted">29 may 2015</span>
+            </div>
+          </div>
+
+          <div class="row mt-2">
+            <div class="col-3">
+              <img src="../imgs/thumb9.png" alt="">
+            </div>
+            <div class="col-9">
+              <p class="h5 text-white">Hand picked ingredients for our best customers</p>
+              <span class="text-muted">29 may 2015</span>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-6 col-lg-4 mt-4 mt-md-0">
+          <h2 class="text-orange text-uppercase mb-4 ">Reach Us</h2>
+          <div class="row">
+            <ul class="list-inline px-3 px-md-0 text-white">
+              <li class="list-inline-item">
+                <a class="text-white" href="#"><i class="fa-brands fa-square-facebook"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a class="text-white" href="#"><i class="fa-brands fa-twitter"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a class="text-white" href="#"><i class="fa-brands fa-glide-g"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a class="text-white" href="#"><i class="fa-brands fa-youtube"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a class="text-white" href="#"><i class="fa-brands fa-vimeo-v"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a class="text-white" href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a class="text-white" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="row mt-2">
+            <div class="col-2 p-md-0 text-orange">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="col-10 p-md-0 text-muted">
+              28 Seventh Avenue, Neew York, 10014
+            </div>
+          </div>
+          <div class="row my-3">
+            <div class="col-2 p-md-0 text-orange">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="col-10 p-md-0 text-muted">
+              Phone: (415) 124-5678
+            </div>
+          </div>
+          <div class="row my-3">
+            <div class="col-2 p-md-0 text-orange">
+              <i class="fa-regular fa-envelope"></i>
+            </div>
+            <div class="col-10 p-md-0 text-muted">
+              support@restaurant.com
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center mt-5 pt-4 pb-2 black-bg">
+      <p class="text-muted h4">
+        &copy; 2015.Tomato.All rights reserved. Designed with <span class="text-orange"><i
+            class="fa-solid fa-heart"></i></span> by Surjithctly
+      </p>
+    </div>
+  </div>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="mixitup.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

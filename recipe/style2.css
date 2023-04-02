@@ -1,0 +1,230 @@
+
+.pack_img{
+    background-image: url('img/packground_nav.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 45vh;
+    width: 100%;
+    font-family: Raleway;
+}
+.recip_h2{
+    font-size: 70px;
+    font-weight: 900;
+}
+.section1{
+    padding-top: 8%;
+}
+
+.sec2 .li_but{
+    width: 36px !important;
+    height: 34px !important;
+    background-color: #ffbb42;
+    float: left;
+    padding-top: 2px;
+    padding-left: 12px;
+    color: white;
+    font-family: josefin Sans;
+}
+.sec2  li div{
+    font-family: josefin Sans;
+}
+
+.section5.btn:hover{
+    background-color: #ffbb42;
+}
+.card-title,.card-text{
+    color: #4b4741;  
+    font-family: Raleway;
+}
+.card-text{
+    font-family: 'Cairo';
+    font-weight: 500;
+}
+
+@media only screen and (min-width: 768px) and (max-width:1920px){
+    .section4 .carousel-inner {
+      display: flex;
+    }
+    .section4 .carousel-item {
+      margin-right: 0;
+      flex: 0 0 calc(100%/4);
+      display: block;
+    }
+  }
+
+  @media only screen and (min-width: 200px) and (max-width:767px){
+    .section4 .carousel-inner {
+      display: flex;
+    }
+    .section4 .carousel-item {
+      margin-right: 0;
+      flex: 0 0 calc(100%/3);
+      display: block;
+    }
+
+}
+  .section  .carousel-inner{
+    padding: 1em;
+}
+.section4 .card{
+    margin: 0 .5em;
+    border: none;
+}
+.sect4_stars{
+    font-size: 16px;
+}
+.food_name{
+    font-weight: 600;
+    font-family: Raleway;
+}
+.dots{
+    width: 15px !important;
+    height: 15px !important;
+}
+.section5{
+    background-color:#f7f3f4 ;
+}
+.section5 h1{
+    float: left;
+    font-weight: 300;
+    color: #4b4741;
+    font-family: Raleway;
+}
+.section5 p{
+    float: left;
+    margin: 15px 0 0 40px;
+    color: #828281;
+    font-family: 'Cairo';
+}
+.section5 input{
+    border: 2px solid #f2ba57;
+    width: 295px;
+}
+@media screen and (min-width:200px){
+    .section5 input{
+        width: 195px;
+    }
+    
+}
+@media screen and (min-width:500px){
+    .section5 input{
+        width: 265px;
+    }
+    
+}
+@media (max-width: 1200px){
+    .section5 h1, .section5 p{
+        float: none;
+        text-align: center;
+        margin: 0;
+    }
+}
+@media (max-width: 1200px){
+    .section5 p {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+.section5 .btn-default {
+    background-color: #f9c56a;
+}
+form{
+    float:right; 
+    
+}
+.recip_img{
+    border-color: #f1f1f1;
+}
+.sec2 h3{
+    font-family: Raleway;
+    font-weight: 800;
+    color: #4b4741;
+}
+
+.sec2 p{
+    font-family: josefin sans,sans-serif;
+    color: #828281;
+}
+.sec2 h4{
+    font-family: raleway,sans-serif;
+    font-weight: 800;
+    color: #333;
+}
+.sec2 ul{
+    list-style-type: none;
+    font-family: josefin Sans;
+}
+.sec2 ul li i{
+    padding-right: 15px;
+}
+.Ingredients{
+    border-top: 1px solid #f9c56a;
+    background-color: #f9f9f9;
+}
+.sec2 .descris{
+    font-size: 19px;
+}
+.progress-bar{
+    height:10px;background-color: #f9c56a
+}
+.progress{
+    height:6px;
+}
+.sec2 h6{
+    float: left;
+    font-size: 15px;
+}
+.tit_descris{
+    font-size: 14px;
+    font-family: josefin Sans;
+}
+.rowdescris{
+    font-family: josefin Sans;
+}
+.datadescris{
+    font-size: 14px;
+}
+.footer{
+    background-image: url('img/backfoo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5px;
+    font-family: Raleway,sans-serif;
+}
+ul li a:hover{
+    color:#f9c56a !important;
+    cursor: pointer;
+}
+nav ul li a{
+    color:white!important;
+    font-family: josefin sans,sans-serif;
+}
+.black-bg{
+    background-color: #1c1c1e;
+    font-family: josefin sans,sans-serif;
+}
+.text-orange{
+    color: #f9c56a;
+    font-family: Raleway,sans-serif;    
+    font-weight: 700;
+    /* font-size: 21px; */
+}
+
+.navbar{
+    background: rgba(0, 0, 0, 0.9) !important;
+    color: white !important;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: josefin sans,sans-serif;
+}
+.footer p,.footer span{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
